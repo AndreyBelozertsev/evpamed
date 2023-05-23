@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лучик надежды</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar pt-0 pb-6">
+        <div class="container">
+          <div class="navbar__wrap ff-NT-Somic">
+            <div class="flex items-center">
+              <a class="logo" href="#" rel="home">
+                <img src="./src/images/logo.svg" />
+              </a>
+            </div>
+            <div class="flex items-center justify-center">
+              <button class="logo" href="#" rel="home">
+                <img src="./src/images/Eye.svg" />
+              </button>
+            </div>
+            <div class="menu text-lg" id="menu">
+              <ul>
+                <li><a class="p-2" href="#">О центре</a></li>
+                <li><a class="p-2" href="#">Услуги</a></li>
+                <li><a class="p-2" href="#">Специалисты</a></li>
+                <li><a class="p-2" href="#">Пациенты</a></li>
+                <li><a class="p-2" href="#">Отзывы</a></li>
+                <li><a class="p-2" href="#">Блог</a></li>
+                <li><a class="p-2" href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="flex items-center">
+              <button class="bg-accent text-onAccent px-3 py-2 rounded-2xl">
+                Записаться
+              </button>
+            </div>
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup" id="popup"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="mt-32 pb-48">
+        <div
+          class="container bg-center bg-cover rounded-3xl"
+          style="background-image: url('./src/images/hero.png')"
+        >
+          <div class="pb-24 px-28 pt-24">
+            <div class="pb-8 w-2/3">
+              <h1 class="uppercase font-extrabold text-[56px]">
+                Лучик надежды
+              </h1>
+            </div>
+            <div class="pb-16 w-2/5">
+              <p>
+                Мы специализируемся на комплексном лечении и реабилитации* детей
+                с неврологическими и генетическими заболеваниями, нарушениями
+                опорно-двигательного аппарата, задержкой речевого развития и
+                общим недоразвитием речи
+              </p>
+            </div>
+            <div class="pb-16 flex justify-center md:justify-start">
+              <a class="py-2 px-4 text-onAccent bg-accent rounded-2xl" href="#"
+                >Ознакомиться с правилами записи</a
+              >
+            </div>
+          </div>
+          <div class="pb-4 px-28">
+            <p class="text-[#303437] text-sm">
+              * Лечение проходит амбулаторно. Проживание в медицинском центре не
+              предусмотрено
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-20">
+            <h2 class="text-[42px] font-extrabold">
+              Комплексное лечение и реабилитация
+            </h2>
+          </div>
+          <div class="grid grid-cols-4 gap-8">
+            <div
+              class="border border-gray-200 rounded-3xl overflow-hidden custom-shadow"
+            >
+              <div class="pb-8">
+                <img src="./src/images/s2-1.jpg" />
+              </div>
+              <div class="px-4 pb-8">
+                <div class="pb-4">
+                  <h3 class="ff-NT-Sonic font-medium text-2xl">
+                    Неврологические заболевания
+                  </h3>
+                </div>
+                <div>
+                  <p class="ff-NT-Sonic text-lg text-textCard">
+                    Осуществляем реабилитацию детей с церебральным параличом,
+                    аутизмом, неврозами, ЗПРР, ЗПМР, врожденными аномалиями
+                    и пороками развития нервной системы
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="border border-gray-200 rounded-3xl overflow-hidden custom-shadow"
+            >
+              <div class="pb-8">
+                <img src="./src/images/s2-2.jpg" />
+              </div>
+              <div class="px-4 pb-8">
+                <div class="pb-4">
+                  <h3 class="ff-NT-Sonic font-medium text-2xl">
+                    Генетические заболевания
+                  </h3>
+                </div>
+                <div>
+                  <p class="ff-NT-Sonic text-lg text-textCard">
+                    Помогаем детям с генетическими заболеваниями полностью
+                    освоиться в обществе и жить полноценной жизнью, учитывая их
+                    особенности
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="border border-gray-200 rounded-3xl overflow-hidden custom-shadow"
+            >
+              <div class="pb-8">
+                <img src="./src/images/s2-3.jpg" />
+              </div>
+              <div class="px-4 pb-8">
+                <div class="pb-4">
+                  <h3 class="ff-NT-Sonic font-medium text-2xl">
+                    Нарушения опорно-двигательного аппарата
+                  </h3>
+                </div>
+                <div>
+                  <p class="ff-NT-Sonic text-lg text-textCard">
+                    Наша специалисты подберут индивидуальный комплекс процедур
+                    и упражнений, нацеленных на улучшение состояния детского
+                    организма
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="border border-gray-200 rounded-3xl overflow-hidden custom-shadow"
+            >
+              <div class="pb-8">
+                <img src="./src/images/s2-4.jpg" />
+              </div>
+              <div class="px-4 pb-8">
+                <div class="pb-4">
+                  <h3 class="ff-NT-Sonic font-medium text-2xl">
+                    Задержка речевого развития, общее недоразвитие речи
+                  </h3>
+                </div>
+                <div>
+                  <p class="ff-NT-Sonic text-lg text-textCard">
+                    Мы стремимся помочь каждому ребенку достичь максимальной
+                    коммуникативной возможности и полноценной жизни
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="grid grid-cols-3 gap-20">
+            <div class="col-span-2">
+              <div class="grid grid-cols-3 gap-10 pb-36">
+                <div class="w-[222px] h-[222px] rounded-full border overflow-hidden custom-shadow">
+                  <img src="./src/images/s3-1.png">
+                </div>
+                <div class="col-span-2">
+                  <div class="pb-8">
+                    <h2 class="text-[42px]">Интеграция детей в общество</h2>
+                  </div>
+                  <div class="ff-NT-Somic">
+                    <p>Команда специалистов c многолетним опытом работы оказывает комплексную высококвалифицированную интенсивную реабилитацию, целью которой является: максимально приблизить состояние пациента к состоянию здоровья его сверстника и предоставить ребенку возможность самостоятельно сидеть, стоять, ходить и говорить</p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-10">
+                <div class="col-span-2">
+                  <div class="pb-8">
+                    <h2 class="text-[42px]">Забота и внимание каждому</h2>
+                  </div>
+                  <div class="ff-NT-Somic">
+                    <p>Мы разрабатываем индивидуальный план реабилитации, который поможет вернуть ребенку здоровье и радость от жизни. Каждый ребенок получает эксклюзивный подход к лечению, который гарантирует наибольший успех в восстановлении здоровья.</p>
+                  </div>
+                </div>
+                <div class="w-[222px] h-[222px] rounded-full border overflow-hidden custom-shadow">
+                  <img src="./src/images/s3-2.png">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="bg-white rounded-3xl border custom-shadow">
+                <div class="p-8">
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="pb-10">
+                      <div class="pb-6 flex justify-center">
+                        <img src="./src/images/s3-3.svg">
+                      </div>
+                      <div>
+                        <p class="text-sm font-extrabold text-center">Многолетний опыт</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="pb-6 flex justify-center">
+                        <img src="./src/images/s3-4.svg">
+                      </div>
+                      <div>
+                        <p class="text-sm font-extrabold text-center">Современное оборудование</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="pb-6 flex justify-center">
+                        <img src="./src/images/s3-5.svg">
+                      </div>
+                      <div>
+                        <p class="text-sm font-extrabold text-center">Индивидуальный план</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="pb-6 flex justify-center">
+                        <img src="./src/images/s3-6.svg">
+                      </div>
+                      <div>
+                        <p class="text-sm font-extrabold text-center">Уют, забота и внимание</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-20">
+            <img src="./src/images/s4-1.png" alt="">
+          </div>
+          <div>
+            <div class="flex justify-center">
+              <a class="px-4 py-2 border rounded-xl custom-shadow" href="#">Помощь благотворительных фондов</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-16">
+            <h2 class="text-[42px] font-extrabold">
+              Как подготовиться к записи?
+            </h2>
+          </div>
+          <div class="grid grid-cols-2 gap-8 ff-NT-Somic">
+            <div>
+              <p class="pb-8">Перед тем, как записаться на реабилитацию, подготовьте медицинскую документацию ребенка:</p>
+              <ol class="list-decimal px-4">
+                <li class="pb-4">
+                  <b>выписку из истории болезни</b> давностью не более полугода, в которой должен быть указан диагноз, описано состояние пациента на данный момент и приведены данные дополнительных обследований
+                </li>
+                <li class="pb-4">
+                  <b>копию документа, удостоверяющего личность</b>
+                </li>
+                <li class="pb-4">
+                  <b>выписки</b> из стационаров, выписки о пройденных курсах реабилитации в других медицинских учреждениях
+                </li>
+                <li class="pb-4">
+                  <b>заключение ЭЭГ</b> сроком давности не более 6 месяцев
+                </li>
+              </ol>
+            </div>
+            <div>
+              <div class="rounded-3xl overflow-hidden custom-shadow">
+                <img src="./src/images/s5-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-16">
+            <h2 class="text-[42px] font-extrabold">
+              Отзывы
+            </h2>
+          </div>
+          <div class="grid grid-cols-5 gap-8">
+            <div class="col-span-2">
+              <div style="width:100%;height:600px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/1741339391?comments"></iframe><a href="https://yandex.ru/maps/org/luchik_nadezhdy/1741339391/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Лучик надежды на карте Евпатории — Яндекс Карты</a></div>
+            </div>
+            <div class="col-span-3">
+              <div class="rounded-3xl h-[600px] overflow-hidden custom-shadow">
+                <img src="./src/images/s6-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="bg-onAccent p-8 rounded-3xl overflow-hidden custom-shadow">
+            <div class="pb-16">
+              <h2 class="text-[42px] font-extrabold">
+                Остались вопросы?
+              </h2>
+            </div>
+            <div class="grid grid-cols-5 gap-32">
+              <div class="col-span-3 ff-NT-Somic">
+                <form action="">
+                  <div class="flex flex-col pb-8">
+                    <label class="font-bold pb-2" for="">Ваше имя*</label>
+                    <input class="px-4 py-2 rounded-xl text-lg border" type="text" name="name" placeholder="Имя">
+                  </div>
+                  <div class="grid grid-cols-2 gap-8 pb-8">
+                    <div class="flex flex-col">
+                      <label class="font-bold pb-2" for="">Ваш мобильный телефон*</label>
+                      <input class="px-4 py-2 rounded-xl text-lg border" type="text" name="phone" placeholder="+7 (000) 000 – 00 – 00">
+                    </div>
+                    <div class="flex flex-col">
+                      <label class="font-bold pb-2" for="">Ваш email*</label>
+                      <input class="px-4 py-2 rounded-xl text-lg border" type="email" name="email" placeholder="pochta@mail.com">
+                    </div>
+                  </div>
+                  <div class="flex flex-col pb-8">
+                    <label class="font-bold pb-2" for="">Какой у Вас вопрос?</label>
+                    <textarea class="px-4 py-2 rounded-xl text-lg border" name="comment" placeholder="Уточните пожалуйста ..."></textarea>
+                  </div>
+                  <div>
+                    <button class="text-lg bg-accent text-onAccent px-5 py-2 rounded-2xl" type="submit">Перезвоните мне</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-span-2 flex flex-col justify-between ff-NT-Somic">
+                <div>
+                  <p class="font-bold pb-2">Напишите вопрос и мы перезвоним Вам</p>
+                  <p class="pb-2">Бесплатно и конфиденциально</p>
+                </div>
+                <div>
+                  <p class="pb-2">Нажимая кнопку, я даю свое согласие на обработку моих персональных данных, в соответствии с №152-ФЗ «О персональных данных» от 27.07.2006 года, на условиях и для целей, определенных в <a class="underline" href="#">Согласии на обработку персональных данных</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-16">
+            <h2 class="text-[42px] font-extrabold">
+              3D-тур по медицинскому центру
+            </h2>
+          </div>
+          <div class="rounded-3xl overflow-hidden">
+            <iframe src="http://evpatoriamed.ru/3d/Luchik.html" width="100%" height="600"></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="pb-48">
+        <div class="container">
+          <div class="pb-16">
+            <h2 class="text-[42px] font-extrabold">
+              Контакты
+            </h2>
+          </div>
+          <div class="grid grid-cols-5 gap-x-14">
+            <div class="col-span-2 p-6 bg-white rounded-3xl">
+              <div class="ff-NT-Somic text-lg">
+                <p class="pb-6 contact contact-address">Республика Крым, г. Евпатория, ул. Шевченко, д. 37, офис 4</p>
+                <p class="pb-6 contact contact-schedule">Пн-Сб 9:00–18:00</p>
+                <p class="pb-6 contact contact-phone"><a href="#">+7 (985) 750-25-25</a></p>
+                <p class="pb-6 contact contact-email"><a href="#">info@evpatoriamed.ru</a></p>
+              </div>
+            </div>
+            <div class="col-span-3 rounded-3xl overflow-hidden">
+              <div id="map" data-coordinates="45.013678, 34.025138" style="height:240px"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pb-12">
+      <div class="container">
+        <div class="flex justify-center pb-8">
+          <hr class="w-11/12" />
+        </div>
+        <div class="flex justify-between items-center">
+          <div class="py-10">
+            <img src="./src/images/logo.svg" />
+          </div>
+          <div class="flex gap-6 pb-12">
+            <a href="#"><img src="./src/images/vk.svg" /></a>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex items-end">
+            <p class="text-xs sm:text-sm md:text-base">
+              © 2023 Медцентр Лучик надежды
+            </p>
+          </div>
+          <div class="flex flex-col items-end">
+            <a href="#">Лицензии</a>
+            <a href="#">Согласие на обработку персональных данных</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+    <script src="https://api-maps.yandex.ru/2.0/?load=package.full&amp;lang=ru-RU"></script>
+
+    <div
+      id="modal-analitic"
+      style="opacity: 0; pointer-events: none"
+      class="modal modal-blur fixed w-full h-full top-0 left-0 flex items-center justify-center"
+    >
+      <div
+        class="modal-overlay absolute w-full h-full bg-gray-900 opacity-30"
+      ></div>
+      <div
+        class="modal-container w-full md:w-11/12 md:max-w-md max-h-screen mx-auto rounded shadow-lg z-50 overflow-y-auto"
+      >
+        <div class="py-2 text-left px-6">
+          <div class="flex justify-end items-center">
+            <div
+              data-modal="modal-analitic"
+              class="modal-close cursor-pointer z-50"
+            >
+              X
+            </div>
+          </div>
+          <div class="pb-3">
+            <h4 class="leading-loose pb-4">
+              Оствьте Ваши контактные данные и наш сотрудник свяжется с Вами
+            </h4>
+            <form class="contact-form" action="" method="POST">
+              <input type="hidden" name="url" value="" />
+              <div class="py-2">
+                <label class="relative">
+                  <input
+                    required
+                    name="name"
+                    class="border-solid border rounded-2xl w-full py-3 px-2 outline-none"
+                    type="text"
+                  />
+                  <span
+                    class="absolute -top-1 left-2 cursor-text"
+                    placeholder="Ваше имя"
+                  ></span>
+                  <p
+                    class="text-error text-sm feedback-error hidden"
+                    id="name-error"
+                  >
+                    <img
+                      class="inline align-bottom"
+                      src="./src/images/warning-filled.svg"
+                    />
+                    <span>Ошибка</span>
+                  </p>
+                </label>
+              </div>
+              <div class="py-2">
+                <label class="relative">
+                  <input
+                    required
+                    name="phone"
+                    class="phone-number border-solid border rounded-2xl w-full py-3 px-2 outline-none"
+                    type="text"
+                  />
+                  <span
+                    class="absolute -top-1 left-2 cursor-text"
+                    placeholder="Номер телефона"
+                  ></span>
+                  <p
+                    class="text-error text-sm feedback-error hidden"
+                    id="phone-error"
+                  >
+                    <img
+                      class="inline align-bottom"
+                      src="./src/images/warning-filled.svg"
+                    />
+                    <span>Ошибка</span>
+                  </p>
+                </label>
+              </div>
+              <div class="py-3">
+                <div class="custom-checkbox-mark inline text-left">
+                  <input
+                    type="checkbox"
+                    id="custom-checkbox-agree"
+                    name="agree"
+                  />
+                  <label for="custom-checkbox-agree">
+                    <span
+                      >Согласен с политикой обработки персональных данных</span
+                    >
+                  </label>
+                  <p
+                    class="text-error text-sm feedback-error hidden"
+                    id="agree-error"
+                  >
+                    <img
+                      class="inline align-bottom"
+                      src="./src/images/warning-filled.svg"
+                    />
+                    <span></span>
+                  </p>
+                </div>
+              </div>
+              <div class="py-3">
+                <input
+                  class="py-3 px-8 rounded-3xl text-lg font-bold animation-pulse disabled:bg-brandGrey-10 disabled:cursor-not-allowed rounded-2xl block text-center"
+                  type="submit"
+                  value="Отправить"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="modal-response"
+      style="opacity: 0; pointer-events: none"
+      class="modal modal-blur fixed w-full h-full top-0 left-0 flex items-end md:items-center justify-center"
+    >
+      <div
+        class="modal-overlay absolute w-full h-full bg-gray-900 opacity-30"
+      ></div>
+      <div
+        class="modal-container w-full md:w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto"
+      >
+        <div class="py-2 text-left px-6">
+          <div class="flex justify-end items-center">
+            <div
+              data-modal="modal-response"
+              class="modal-close cursor-pointer text-brand z-50"
+            >
+              X
+            </div>
+          </div>
+          <div class="text-brand modal-content text-center pb-6"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

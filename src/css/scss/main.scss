@@ -1,0 +1,75 @@
+@import './_root.scss';
+@import './_contact.scss';
+@import './_footer.scss';
+@import './_index.scss';
+@import './_modal.scss';
+@import './_navmenu.scss';
+
+@import './_services.scss';
+
+body{
+    font-family: 'Jemima';
+}
+
+
+@font-face {
+    font-family: 'NT Somic';
+    src: local('NT Somic'), url(../../fonts/NT-Somic/Webfonts/NTSomic-Regular.woff2) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'NT Somic';
+    src: local('NT Somic'), url(../../fonts/NT-Somic/Webfonts/NTSomic-Medium.woff2) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'NT Somic';
+    src: local('NT Somic'), url(../../fonts/NT-Somic/Webfonts/NTSomic-Bold.woff2) format('truetype');
+    font-weight: 700;
+}
+
+//Jemima
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-Light.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Jemima';
+    src: local('Jemima'), url(../../fonts/Jemima/fonts/Jemima-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+

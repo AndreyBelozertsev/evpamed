@@ -1,0 +1,27 @@
+.contact {
+    position: relative;
+    margin-left: 45px;
+}
+
+.contact-address:before {
+    position: absolute;
+    margin-left: -40px;
+    content: url(./../../images/contact-address.svg);
+}
+.contact-phone:before {
+    position: absolute;
+    margin-left: -40px;
+    content: url(./../../images/contact-phone.svg);
+}
+
+.contact-schedule:before {
+    position: absolute;
+    margin-left: -40px;
+    content: url(./../../images/contact-schedule.svg);
+}
+
+.contact-email:before {
+    position: absolute;
+    margin-left: -40px;
+    content: url(./../../images/contact-email.svg);
+}
