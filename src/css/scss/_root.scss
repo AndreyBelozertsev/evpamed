@@ -5,11 +5,12 @@ $milk: #F6F6F6;
 $onAccent: #E0FFF7;
 $primary: #1C5445;
 $textCard: #54887A;
+$bg: #FCFCFC;
 
 
 
 body{
-    background-color: #FCFCFC;
+    background-color: $bg;
     color: $primary;
 }
 
