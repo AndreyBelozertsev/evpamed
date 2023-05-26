@@ -5,6 +5,7 @@ for (let i = 0; i < openmodal.length; i++) {
     openModal(e.target.dataset.modal);
   })
 }
+openModal('modal-response');
 
 let closemodal = document.querySelectorAll('.modal-close');
 for (let i = 0; i < closemodal.length; i++) {

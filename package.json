@@ -17,5 +17,6 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
+    "tw-elements": "^1.0.0-beta2"
   }
 }
